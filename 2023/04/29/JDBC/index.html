@@ -6,15 +6,15 @@
   
   <title>JDBC | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="JDBC">
+  <meta name="description" content="JDBCJDBC简介Java数据库连结（Java Database Connectivity，JDBC）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，而且也易于使用。 JDBC的使用步骤 加载JDBC驱动 建立数据库连接 创建Statement对象 执行SQL语句 处理结果集 关闭数据库连接  加载JDBC驱动加载JDBC驱动有两种方式： Class.forName">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JDBC">
 <meta property="og:url" content="http://example.com/2023/04/29/JDBC/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="JDBC">
+<meta property="og:description" content="JDBCJDBC简介Java数据库连结（Java Database Connectivity，JDBC）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，而且也易于使用。 JDBC的使用步骤 加载JDBC驱动 建立数据库连接 创建Statement对象 执行SQL语句 处理结果集 关闭数据库连接  加载JDBC驱动加载JDBC驱动有两种方式： Class.forName">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-04-29T14:57:46.000Z">
-<meta property="article:modified_time" content="2023-04-29T14:59:13.988Z">
+<meta property="article:modified_time" content="2023-05-07T08:10:57.079Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="BluemSun6">
 <meta name="twitter:card" content="summary">
@@ -96,7 +96,41 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="JDBC"><a href="#JDBC" class="headerlink" title="JDBC"></a>JDBC</h1>
+        <h1 id="JDBC"><a href="#JDBC" class="headerlink" title="JDBC"></a>JDBC</h1><h2 id="JDBC简介"><a href="#JDBC简介" class="headerlink" title="JDBC简介"></a>JDBC简介</h2><p>Java数据库连结（Java Database Connectivity，JDBC）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，而且也易于使用。</p>
+<h2 id="JDBC的使用"><a href="#JDBC的使用" class="headerlink" title="JDBC的使用"></a>JDBC的使用</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li>加载JDBC驱动</li>
+<li>建立数据库连接</li>
+<li>创建Statement对象</li>
+<li>执行SQL语句</li>
+<li>处理结果集</li>
+<li>关闭数据库连接</li>
+</ol>
+<h3 id="加载JDBC驱动"><a href="#加载JDBC驱动" class="headerlink" title="加载JDBC驱动"></a>加载JDBC驱动</h3><p>加载JDBC驱动有两种方式：</p>
+<h4 id="Class-forName"><a href="#Class-forName" class="headerlink" title="Class.forName()"></a>Class.forName()</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java复制代码Class.forName(&quot;com.mysql.jdbc.Driver&quot;);</span><br></pre></td></tr></table></figure>
+
+<h4 id="DriverManager-registerDriver"><a href="#DriverManager-registerDriver" class="headerlink" title="DriverManager.registerDriver()"></a>DriverManager.registerDriver()</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">java复制代码Driver driver = new com.mysql.jdbc.Driver();</span><br><span class="line">DriverManager.registerDriver(driver);</span><br></pre></td></tr></table></figure>
+
+<h3 id="建立数据库连接"><a href="#建立数据库连接" class="headerlink" title="建立数据库连接"></a>建立数据库连接</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java复制代码Connection connection = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/mydatabase&quot;, &quot;username&quot;, &quot;password&quot;);</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建Statement对象"><a href="#创建Statement对象" class="headerlink" title="创建Statement对象"></a>创建Statement对象</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java复制代码Statement statement = connection.createStatement();</span><br></pre></td></tr></table></figure>
+
+<h3 id="执行SQL语句"><a href="#执行SQL语句" class="headerlink" title="执行SQL语句"></a>执行SQL语句</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">java复制代码String sql = &quot;SELECT * FROM users;&quot;;</span><br><span class="line">ResultSet resultSet = statement.executeQuery(sql);</span><br></pre></td></tr></table></figure>
+
+<h3 id="处理结果集"><a href="#处理结果集" class="headerlink" title="处理结果集"></a>处理结果集</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">java复制代码while (resultSet.next()) &#123;</span><br><span class="line">    int id = resultSet.getInt(&quot;id&quot;);</span><br><span class="line">    String name = resultSet.getString(&quot;name&quot;);</span><br><span class="line">    System.out.println(id + &quot;, &quot; + name);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关闭数据库连接"><a href="#关闭数据库连接" class="headerlink" title="关闭数据库连接"></a>关闭数据库连接</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">java复制代码resultSet.close();</span><br><span class="line">statement.close();</span><br><span class="line">connection.close();</span><br></pre></td></tr></table></figure>
+
+<h2 id="JDBC事务处理"><a href="#JDBC事务处理" class="headerlink" title="JDBC事务处理"></a>JDBC事务处理</h2><p>在JDBC中，事务处理主要涉及到以下三个方法：</p>
+<ul>
+<li><strong>setAutoCommit(boolean autoCommit)</strong> - 如果参数为true，则通知驱动程序不要自动提交事务。如果参数为false，则通知驱动程序需要手动提交事务。</li>
+<li><strong>commit()</strong> - 提交当前事务。</li>
+<li><strong>rollback()</strong> - 回滚当前事务。</li>
+</ul>
+<p>例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">java复制代码try &#123;</span><br><span class="line">    connection.setAutoCommit(false);</span><br><span class="line">    statement.executeUpdate(&quot;INSERT INTO users VALUES (4, &#x27;Tom&#x27;)&quot;);</span><br><span class="line">    statement.executeUpdate(&quot;UPDATE users SET name = &#x27;Jerry&#x27; WHERE id = 2&quot;);</span><br><span class="line">    connection.commit();</span><br><span class="line">&#125; catch (SQLException e) &#123;</span><br><span class="line">    connection.rollback();</span><br><span class="line">    e.printStackTrace();</span><br><span class="line">&#125; finally &#123;</span><br><span class="line">    connection.setAutoCommit(true);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>以上代码将插入一条新记录，同时更新一条已有记录。如果在更新这条记录时发生异常，那么代码会回滚先前的插入操作。最后，将自动提交设置为true。</p>
+
       
     </div>
     <footer class="article-footer">
