@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-10T02:05:56.620Z</updated>
+  <updated>2023-05-10T02:42:34.815Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,45 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Instructional_Technology4</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology4/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology4/</id>
-    <published>2023-05-10T02:05:56.000Z</published>
-    <updated>2023-05-10T02:05:56.620Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Instructional_Technology3</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology3/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology3/</id>
-    <published>2023-05-10T02:05:46.000Z</published>
-    <updated>2023-05-10T02:05:46.864Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Instructional_Technology2</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology2/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology2/</id>
-    <published>2023-05-10T02:05:37.000Z</published>
-    <updated>2023-05-10T02:05:37.188Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Instructional_Technology1</title>
