@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="NENU_1173_7001中位数(知识点:*和qsort)1173: 7001 中位数题目描述给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的">
+  <meta name="description" content="NENU_1173_7001中位数(知识点:qsort)1173: 7001 中位数题目描述给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的是原">
 <meta property="og:type" content="article">
-<meta property="og:title" content="NENU_1173_7001">
+<meta property="og:title" content="NENU_1173_7001中位数(知识点:qsort)">
 <meta property="og:url" content="http://example.com/2023/05/11/NENU_1173_7001/index.html">
 <meta property="og:site_name" content="琦煜老师的博客">
-<meta property="og:description" content="NENU_1173_7001中位数(知识点:*和qsort)1173: 7001 中位数题目描述给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的">
+<meta property="og:description" content="NENU_1173_7001中位数(知识点:qsort)1173: 7001 中位数题目描述给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的是原">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-05-11T00:53:10.000Z">
-<meta property="article:modified_time" content="2023-05-11T01:18:06.629Z">
+<meta property="article:modified_time" content="2023-05-11T14:52:41.416Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="c">
 <meta name="twitter:card" content="summary">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>NENU_1173_7001 | 琦煜老师的博客</title>
+  <title>NENU_1173_7001中位数(知识点:qsort) | 琦煜老师的博客</title>
   
 
 
@@ -165,7 +165,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          NENU_1173_7001
+          NENU_1173_7001中位数(知识点:qsort)
         </h1>
 
         <div class="post-meta">
@@ -176,7 +176,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2023-05-11 08:53:10 / Modified: 09:18:06" itemprop="dateCreated datePublished" datetime="2023-05-11T08:53:10+08:00">2023-05-11</time>
+              <time title="Created: 2023-05-11 08:53:10 / Modified: 22:52:41" itemprop="dateCreated datePublished" datetime="2023-05-11T08:53:10+08:00">2023-05-11</time>
             </span>
 
           
@@ -190,7 +190,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="NENU-1173-7001中位数-知识点-和qsort"><a href="#NENU-1173-7001中位数-知识点-和qsort" class="headerlink" title="NENU_1173_7001中位数(知识点:*和qsort)"></a>NENU_1173_7001中位数(知识点:*和qsort)</h1><h2 id="1173-7001-中位数"><a href="#1173-7001-中位数" class="headerlink" title="1173: 7001 中位数"></a>1173: 7001 中位数</h2><h4 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h4><p>给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的是原始序列可能是未排序的。<br>你的任务就是编程找出给定序列中的中位数。</p>
+        <h1 id="NENU-1173-7001中位数-知识点-qsort"><a href="#NENU-1173-7001中位数-知识点-qsort" class="headerlink" title="NENU_1173_7001中位数(知识点:qsort)"></a>NENU_1173_7001中位数(知识点:qsort)</h1><h2 id="1173-7001-中位数"><a href="#1173-7001-中位数" class="headerlink" title="1173: 7001 中位数"></a>1173: 7001 中位数</h2><h4 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h4><p>给定一个由N个非负整数构成的序列，我们来定义一下序列的中位数，如果N是奇数，在对序列排序后，中位数就是最中间的那个数，即排序后，中位数的位置为(N+1)&#x2F;2，这里序列的位置从1开始。如果N是偶数，则中位数为排序后中间两个数和的一半，即N&#x2F;2和(N&#x2F;2)+1处。但是需要注意的是原始序列可能是未排序的。<br>你的任务就是编程找出给定序列中的中位数。</p>
 <h4 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h4><p>测试有多组数据，每组数据第一行只有一个整数N，表示序列的长度。接下来就是N个数，每个数占一行，序列的长度范围为1到250000。序列中的每个数都是不超过232-1（包括它）的正整数。</p>
 <h4 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h4><p>输出中位数，保留小数点后一位。</p>
 <h4 id="样例输入-复制"><a href="#样例输入-复制" class="headerlink" title="样例输入 复制"></a>样例输入 复制</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">3</span><br><span class="line">6</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td></tr></table></figure>
@@ -283,7 +283,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#NENU-1173-7001%E4%B8%AD%E4%BD%8D%E6%95%B0-%E7%9F%A5%E8%AF%86%E7%82%B9-%E5%92%8Cqsort"><span class="nav-number">1.</span> <span class="nav-text">NENU_1173_7001中位数(知识点:*和qsort)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1173-7001-%E4%B8%AD%E4%BD%8D%E6%95%B0"><span class="nav-number">1.1.</span> <span class="nav-text">1173: 7001 中位数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">题目描述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">输入</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">输出</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5-%E5%A4%8D%E5%88%B6"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">样例输入 复制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA-%E5%A4%8D%E5%88%B6"><span class="nav-number">1.1.0.5.</span> <span class="nav-text">样例输出 复制</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81-c"><span class="nav-number">1.2.</span> <span class="nav-text">代码(c)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81-c-1"><span class="nav-number">1.3.</span> <span class="nav-text">代码(c++)</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#NENU-1173-7001%E4%B8%AD%E4%BD%8D%E6%95%B0-%E7%9F%A5%E8%AF%86%E7%82%B9-qsort"><span class="nav-number">1.</span> <span class="nav-text">NENU_1173_7001中位数(知识点:qsort)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1173-7001-%E4%B8%AD%E4%BD%8D%E6%95%B0"><span class="nav-number">1.1.</span> <span class="nav-text">1173: 7001 中位数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">题目描述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">输入</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">输出</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5-%E5%A4%8D%E5%88%B6"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">样例输入 复制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA-%E5%A4%8D%E5%88%B6"><span class="nav-number">1.1.0.5.</span> <span class="nav-text">样例输出 复制</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81-c"><span class="nav-number">1.2.</span> <span class="nav-text">代码(c)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81-c-1"><span class="nav-number">1.3.</span> <span class="nav-text">代码(c++)</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
