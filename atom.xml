@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-11T16:57:03.773Z</updated>
+  <updated>2023-05-16T02:14:36.171Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>login_project</title>
+    <link href="http://example.com/2023/05/16/login-project/"/>
+    <id>http://example.com/2023/05/16/login-project/</id>
+    <published>2023-05-16T01:45:40.000Z</published>
+    <updated>2023-05-16T02:14:36.171Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="登陆注册系统"><a href="#登陆注册系统" class="headerlink" title="登陆注册系统"></a>登陆注册系统</h1><p> 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这个项目,将上机操作的过程写在这里,作为记录,也希望能够帮助到别人</p><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ol><li>JavaEE需要选择8版本,而不是更新版本</li><li>servlet中需要设置编码,不然输出中文会变成问号</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;登陆注册系统&quot;&gt;&lt;a href=&quot;#登陆注册系统&quot; class=&quot;headerlink&quot; title=&quot;登陆注册系统&quot;&gt;&lt;/a&gt;登陆注册系统&lt;/h1&gt;&lt;p&gt; 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这</summary>
+      
+    
+    
+    
+    
+    <category term="bluemsunWork2" scheme="http://example.com/tags/bluemsunWork2/"/>
+    
+  </entry>
   
   <entry>
     <title>NENU_1173_7001中位数(知识点:qsort)</title>
@@ -103,28 +125,6 @@
     
     
     <category term="IT" scheme="http://example.com/tags/IT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>login_project</title>
-    <link href="http://example.com/2023/05/09/login-project/"/>
-    <id>http://example.com/2023/05/09/login-project/</id>
-    <published>2023-05-09T00:50:40.000Z</published>
-    <updated>2023-05-09T14:03:10.478Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="登陆注册系统"><a href="#登陆注册系统" class="headerlink" title="登陆注册系统"></a>登陆注册系统</h1><h2 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h2><h3 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h3><p>官网下载后配置相关路径</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;登陆注册系统&quot;&gt;&lt;a href=&quot;#登陆注册系统&quot; class=&quot;headerlink&quot; title=&quot;登陆注册系统&quot;&gt;&lt;/a&gt;登陆注册系统&lt;/h1&gt;&lt;h2 id=&quot;Tomcat&quot;&gt;&lt;a href=&quot;#Tomcat&quot; class=&quot;headerlink&quot; titl</summary>
-      
-    
-    
-    
-    
-    <category term="bluemsunWork2" scheme="http://example.com/tags/bluemsunWork2/"/>
     
   </entry>
   
@@ -243,7 +243,7 @@
     <link href="http://example.com/2023/04/28/Disjoint-set-data-structure/"/>
     <id>http://example.com/2023/04/28/Disjoint-set-data-structure/</id>
     <published>2023-04-28T13:37:50.000Z</published>
-    <updated>2023-05-11T15:25:33.828Z</updated>
+    <updated>2023-05-11T15:26:12.731Z</updated>
     
     <content type="html"><![CDATA[<h1 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h1><p>等待更新</p>]]></content>
     
