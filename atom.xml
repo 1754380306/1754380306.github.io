@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-17T02:32:35.508Z</updated>
+  <updated>2023-05-17T02:39:16.907Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,11 +21,20 @@
     <link href="http://example.com/2023/05/17/Instuctional-Technology3/"/>
     <id>http://example.com/2023/05/17/Instuctional-Technology3/</id>
     <published>2023-05-17T02:32:35.000Z</published>
-    <updated>2023-05-17T02:32:35.508Z</updated>
+    <updated>2023-05-17T02:39:16.907Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="教育技术人的专业发展"><a href="#教育技术人的专业发展" class="headerlink" title="教育技术人的专业发展"></a>教育技术人的专业发展</h1><h2 id="教育技术学的学科性质"><a href="#教育技术学的学科性质" class="headerlink" title="教育技术学的学科性质"></a>教育技术学的学科性质</h2><p>基础性学科:研究知识,数理化文史哲</p><p>工具性学科:解决问题</p><p>教育技术学是教育学的二级学科主要解决的事与实践紧密相连的教育教学的工具&#x2F;方法和策略等具体问题</p><p>教育技术学是<strong>工具性学科</strong>.</p><p>教育技术学在大教育学科群中的地位是由教育技术在教学过程中所发挥的作用决定的.</p><p>目前教育技术学是大教育学科中的显学.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;教育技术人的专业发展&quot;&gt;&lt;a href=&quot;#教育技术人的专业发展&quot; class=&quot;headerlink&quot; title=&quot;教育技术人的专业发展&quot;&gt;&lt;/a&gt;教育技术人的专业发展&lt;/h1&gt;&lt;h2 id=&quot;教育技术学的学科性质&quot;&gt;&lt;a href=&quot;#教育技术学的学科性质&quot;</summary>
+      
     
     
     
     
+    <category term="IT" scheme="http://example.com/tags/IT/"/>
     
   </entry>
   
