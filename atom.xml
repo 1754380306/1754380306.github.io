@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-16T02:14:36.171Z</updated>
+  <updated>2023-05-17T02:19:59.923Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Instructional-Technology2</title>
+    <link href="http://example.com/2023/05/17/Instructional-Technology2/"/>
+    <id>http://example.com/2023/05/17/Instructional-Technology2/</id>
+    <published>2023-05-17T01:56:30.000Z</published>
+    <updated>2023-05-17T02:19:59.923Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="有效学习"><a href="#有效学习" class="headerlink" title="有效学习"></a>有效学习</h1><h2 id="协作学习活动"><a href="#协作学习活动" class="headerlink" title="协作学习活动"></a>协作学习活动</h2><p>通过小组或团队的形式组织学生进行学习的一种策略.</p><p>协作学习是学生以小组形式参与,为达到共同的学习目标,在一定的激励机制下<strong>最大化</strong>个人和他人的成果,而<strong>合作互助</strong>的一切相关行为</p><p>协作学习以小组活动为主体,强调异质分组,强调小组成员的合作互助,强调目标导向,强调总体成绩作为激励.</p><p>作为老师在布置小组写作任务时需要注意:</p><ul><li>设置课题的难度,避免一个人全干完</li><li>客观评鉴</li></ul><p>可能出现下面问题:</p><ul><li>协作学习中出现<strong>搭便车</strong>现象</li><li>林戈尔曼效应:当人们参加社会集体活动时,个人贡献会因人数的增加而逐渐减少,林格尔曼将其称之为”社会惰性”.</li></ul><p>为解决<strong>搭便车</strong>:</p><ul><li>在开始活动时,分配任务</li><li>结束后互评</li></ul><p>为解决<strong>林格尔曼</strong>效应:</p><ul><li>将小组内再进行分组</li></ul><p>协作活动五要素:</p><ol><li>积极互赖:不仅为自己的学习负责,也为小组的<strong>其他同伴的学习</strong>负责</li><li>个体职能:每个学生都承担一定学习任务,成功取决于<strong>所有组员个人的学习</strong></li><li>小组自加工:反思在某一活动时期某些组员的活动有益无益,哪些活动可以继续或者需要改进</li><li>社交技能</li><li>面对面的促进性交互</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;有效学习&quot;&gt;&lt;a href=&quot;#有效学习&quot; class=&quot;headerlink&quot; title=&quot;有效学习&quot;&gt;&lt;/a&gt;有效学习&lt;/h1&gt;&lt;h2 id=&quot;协作学习活动&quot;&gt;&lt;a href=&quot;#协作学习活动&quot; class=&quot;headerlink&quot; title=&quot;协作学习活</summary>
+      
+    
+    
+    
+    
+    <category term="IT" scheme="http://example.com/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>login_project</title>
     <link href="http://example.com/2023/05/16/login-project/"/>
     <id>http://example.com/2023/05/16/login-project/</id>
     <published>2023-05-16T01:45:40.000Z</published>
-    <updated>2023-05-16T02:14:36.171Z</updated>
+    <updated>2023-05-16T02:18:24.634Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="登陆注册系统"><a href="#登陆注册系统" class="headerlink" title="登陆注册系统"></a>登陆注册系统</h1><p> 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这个项目,将上机操作的过程写在这里,作为记录,也希望能够帮助到别人</p><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ol><li>JavaEE需要选择8版本,而不是更新版本</li><li>servlet中需要设置编码,不然输出中文会变成问号</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="登陆注册系统"><a href="#登陆注册系统" class="headerlink" title="登陆注册系统"></a>登陆注册系统</h1><p> 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这个项目,将上机操作的过程写在这里,作为记录,也希望能够帮助到别人</p><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ul><li>JavaEE需要选择8版本,而不是更新版本</li><li>servlet中需要设置编码,不然输出中文会变成问号</li></ul><p>编码内容如下:</p>]]></content>
     
     
       
@@ -61,58 +83,13 @@
   </entry>
   
   <entry>
-    <title>Instructional_Technology4</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology4/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology4/</id>
-    <published>2023-05-10T02:05:56.000Z</published>
-    <updated>2023-05-11T15:24:56.643Z</updated>
-    
-    
-    
-    
-    
-    <category term="IT" scheme="http://example.com/tags/IT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Instructional_Technology3</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology3/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology3/</id>
-    <published>2023-05-10T02:05:46.000Z</published>
-    <updated>2023-05-11T15:24:49.260Z</updated>
-    
-    
-    
-    
-    
-    <category term="IT" scheme="http://example.com/tags/IT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Instructional_Technology2</title>
-    <link href="http://example.com/2023/05/10/Instructional-Technology2/"/>
-    <id>http://example.com/2023/05/10/Instructional-Technology2/</id>
-    <published>2023-05-10T02:05:37.000Z</published>
-    <updated>2023-05-11T15:24:42.995Z</updated>
-    
-    
-    
-    
-    
-    <category term="IT" scheme="http://example.com/tags/IT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Instructional_Technology1</title>
     <link href="http://example.com/2023/05/10/Instructional-Technology1/"/>
     <id>http://example.com/2023/05/10/Instructional-Technology1/</id>
     <published>2023-05-10T02:05:25.000Z</published>
-    <updated>2023-05-11T15:24:34.799Z</updated>
+    <updated>2023-05-17T02:04:40.127Z</updated>
     
-    <content type="html"><![CDATA[<p> 这是第三次课,前两节课的时候没做好记录,从现在开始记录</p><h1 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h1><h2 id="理解教育技术内涵"><a href="#理解教育技术内涵" class="headerlink" title="理解教育技术内涵"></a>理解教育技术内涵</h2><h2 id="教育技术的理论基础"><a href="#教育技术的理论基础" class="headerlink" title="教育技术的理论基础"></a>教育技术的理论基础</h2><h3 id="过程理论"><a href="#过程理论" class="headerlink" title="过程理论"></a>过程理论</h3><h4 id="传播学"><a href="#传播学" class="headerlink" title="传播学"></a>传播学</h4><h4 id="系统科学理论"><a href="#系统科学理论" class="headerlink" title="系统科学理论"></a>系统科学理论</h4><h3 id="教育心理学理论"><a href="#教育心理学理论" class="headerlink" title="教育心理学理论"></a>教育心理学理论</h3><h4 id="行为主义理论"><a href="#行为主义理论" class="headerlink" title="行为主义理论"></a>行为主义理论</h4><h4 id="认知主义学习理论"><a href="#认知主义学习理论" class="headerlink" title="认知主义学习理论"></a>认知主义学习理论</h4><h4 id="构建主义理论"><a href="#构建主义理论" class="headerlink" title="构建主义理论"></a>构建主义理论</h4><h2 id="教育技术学的技术基础"><a href="#教育技术学的技术基础" class="headerlink" title="教育技术学的技术基础"></a>教育技术学的技术基础</h2><h2 id="教育技术学人的专业发展"><a href="#教育技术学人的专业发展" class="headerlink" title="教育技术学人的专业发展"></a>教育技术学人的专业发展</h2><h2 id="教育技术学的专业方向"><a href="#教育技术学的专业方向" class="headerlink" title="教育技术学的专业方向"></a>教育技术学的专业方向</h2><p>讨论</p><h1 id="课程目标"><a href="#课程目标" class="headerlink" title="课程目标"></a>课程目标</h1><p>了解教育技术学学科,定位学习领域和发展方向</p><h1 id="课程评价"><a href="#课程评价" class="headerlink" title="课程评价"></a>课程评价</h1><h2 id="过程性评价-60"><a href="#过程性评价-60" class="headerlink" title="过程性评价(60%)"></a>过程性评价(60%)</h2><p>课堂互动,作业小组活动参与</p><h2 id="总结性评价-40"><a href="#总结性评价-40" class="headerlink" title="总结性评价(40%)"></a>总结性评价(40%)</h2><p>期末考试</p><h1 id="教育技术的本质"><a href="#教育技术的本质" class="headerlink" title="教育技术的本质"></a>教育技术的本质</h1><p>运用技术手段去优化教育,教学过程,以提高教育,教学的效果,效率与效益的理论与实践</p><h1 id="技术-教学-教学为主-x3D-创新融合"><a href="#技术-教学-教学为主-x3D-创新融合" class="headerlink" title="技术+教学(教学为主)&#x3D;创新融合"></a>技术+教学(教学为主)&#x3D;创新融合</h1>]]></content>
+    <content type="html"><![CDATA[<p> 这是第三次课,前两节课的时候没做好记录,从现在开始记录</p><h1 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h1><h2 id="理解教育技术内涵"><a href="#理解教育技术内涵" class="headerlink" title="理解教育技术内涵"></a>理解教育技术内涵</h2><h2 id="教育技术的理论基础"><a href="#教育技术的理论基础" class="headerlink" title="教育技术的理论基础"></a>教育技术的理论基础</h2><h3 id="过程理论"><a href="#过程理论" class="headerlink" title="过程理论"></a>过程理论</h3><h4 id="传播学"><a href="#传播学" class="headerlink" title="传播学"></a>传播学</h4><h4 id="系统科学理论"><a href="#系统科学理论" class="headerlink" title="系统科学理论"></a>系统科学理论</h4><h3 id="教育心理学理论"><a href="#教育心理学理论" class="headerlink" title="教育心理学理论"></a>教育心理学理论</h3><h4 id="行为主义理论"><a href="#行为主义理论" class="headerlink" title="行为主义理论"></a>行为主义理论</h4><h4 id="认知主义学习理论"><a href="#认知主义学习理论" class="headerlink" title="认知主义学习理论"></a>认知主义学习理论</h4><h4 id="构建主义理论"><a href="#构建主义理论" class="headerlink" title="构建主义理论"></a>构建主义理论</h4><h2 id="教育技术学的技术基础"><a href="#教育技术学的技术基础" class="headerlink" title="教育技术学的技术基础"></a>教育技术学的技术基础</h2><h2 id="教育技术学人的专业发展"><a href="#教育技术学人的专业发展" class="headerlink" title="教育技术学人的专业发展"></a>教育技术学人的专业发展</h2><h2 id="教育技术学的专业方向"><a href="#教育技术学的专业方向" class="headerlink" title="教育技术学的专业方向"></a>教育技术学的专业方向</h2><h1 id="课程目标"><a href="#课程目标" class="headerlink" title="课程目标"></a>课程目标</h1><p>了解教育技术学学科,定位学习领域和发展方向</p><h1 id="课程评价"><a href="#课程评价" class="headerlink" title="课程评价"></a>课程评价</h1><h2 id="过程性评价-60"><a href="#过程性评价-60" class="headerlink" title="过程性评价(60%)"></a>过程性评价(60%)</h2><p>课堂互动,作业小组活动参与</p><h2 id="总结性评价-40"><a href="#总结性评价-40" class="headerlink" title="总结性评价(40%)"></a>总结性评价(40%)</h2><p>期末考试</p><h1 id="教育技术的本质"><a href="#教育技术的本质" class="headerlink" title="教育技术的本质"></a>教育技术的本质</h1><p>运用技术手段去优化教育,教学过程,以提高教育,教学的效果,效率与效益的理论与实践</p><h1 id="技术-教学-教学为主-x3D-创新融合"><a href="#技术-教学-教学为主-x3D-创新融合" class="headerlink" title="技术+教学(教学为主)&#x3D;创新融合"></a>技术+教学(教学为主)&#x3D;创新融合</h1><h2 id="学习理论"><a href="#学习理论" class="headerlink" title="学习理论"></a>学习理论</h2>]]></content>
     
     
       
