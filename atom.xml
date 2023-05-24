@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-22T03:31:52.210Z</updated>
+  <updated>2023-05-24T01:56:13.859Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>loginproject</title>
+    <link href="http://example.com/2023/05/24/loginproject/"/>
+    <id>http://example.com/2023/05/24/loginproject/</id>
+    <published>2023-05-24T01:56:13.000Z</published>
+    <updated>2023-05-24T01:56:13.859Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java_Array</title>
+    <link href="http://example.com/2023/05/24/Java-Array/"/>
+    <id>http://example.com/2023/05/24/Java-Array/</id>
+    <published>2023-05-24T01:52:39.000Z</published>
+    <updated>2023-05-24T01:54:50.407Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义格式"><a href="#定义格式" class="headerlink" title="定义格式"></a>定义格式</h2><p>数据类型[] 变量名</p><p>例：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] arr;</span><br></pre></td></tr></table></figure><p>数组初始化</p><p>为数组中的数组元素分配内存空间，并为每个数组元素赋值</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;定义格式&quot;&gt;&lt;a href=&quot;#定义格式&quot; class=&quot;headerlink&quot; title=&quot;定义格式&quot;&gt;&lt;/a&gt;定义格式&lt;/h2&gt;&lt;p&gt;数据类型[] 变量名&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table</summary>
+      
+    
+    
+    
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Enum</title>
@@ -82,28 +119,6 @@
     
     
     <category term="IT" scheme="http://example.com/tags/IT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>login_project</title>
-    <link href="http://example.com/2023/05/16/login-project/"/>
-    <id>http://example.com/2023/05/16/login-project/</id>
-    <published>2023-05-16T01:45:40.000Z</published>
-    <updated>2023-05-16T02:18:24.634Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="登陆注册系统"><a href="#登陆注册系统" class="headerlink" title="登陆注册系统"></a>登陆注册系统</h1><p> 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这个项目,将上机操作的过程写在这里,作为记录,也希望能够帮助到别人</p><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ul><li>JavaEE需要选择8版本,而不是更新版本</li><li>servlet中需要设置编码,不然输出中文会变成问号</li></ul><p>编码内容如下:</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;登陆注册系统&quot;&gt;&lt;a href=&quot;#登陆注册系统&quot; class=&quot;headerlink&quot; title=&quot;登陆注册系统&quot;&gt;&lt;/a&gt;登陆注册系统&lt;/h1&gt;&lt;p&gt; 之前虽然一直在写博客,但一直以来没有进行过实际操作,综合蓝旭这次考试,发现了自己的很多问题,实际上机写了这</summary>
-      
-    
-    
-    
-    
-    <category term="bluemsunWork2" scheme="http://example.com/tags/bluemsunWork2/"/>
     
   </entry>
   
